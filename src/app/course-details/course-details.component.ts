@@ -15,7 +15,11 @@ export class CourseDetailsComponent implements OnInit {
   getCourseList()
   {
 
-    this.courselist=this.courses.getCourseDetails()
+    this.courselist=this.courses.getCourseDetails().subscribe(res=>{
+
+      this.courselist=res['courseDetails']
+      console.log(res)
+    })
   }
 
 }
