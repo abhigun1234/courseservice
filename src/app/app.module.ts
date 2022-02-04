@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses/courses.component';
 import {HttpClientModule} from '@angular/common/http';
 import { CourselistComponent } from './courselist/courselist.component';
-import { CourseDetailsComponent } from './course-details/course-details.component'
+import { CourseDetailsComponent } from './course-details/course-details.component';
+import { EmployeelistComponent } from './employeelist/employeelist.component';
+import { EmployeedetailsComponent } from './employeedetails/employeedetails.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     CoursesComponent,
     CourselistComponent,
-    CourseDetailsComponent
+    CourseDetailsComponent,
+    EmployeelistComponent,
+    EmployeedetailsComponent,
+
   ],
   imports: [
     BrowserModule,

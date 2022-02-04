@@ -1,0 +1,11 @@
+<button (click)="getEmpDetails()">getEmpList</button>
+<label>Employee Details</label>
+<ul>
+<li *ngFor="let emp of employeeDetails">
+  {{emp.name}}
+  {{emp.id}}
+  {{emp.email}}
+</li>
+
+</ul>
+
