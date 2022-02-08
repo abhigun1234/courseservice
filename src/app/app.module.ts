@@ -9,6 +9,7 @@ import { CourselistComponent } from './courselist/courselist.component';
 import { CourseDetailsComponent } from './course-details/course-details.component';
 import { EmployeelistComponent } from './employeelist/employeelist.component';
 import { EmployeedetailsComponent } from './employeedetails/employeedetails.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { EmployeedetailsComponent } from './employeedetails/employeedetails.comp
     CourseDetailsComponent,
     EmployeelistComponent,
     EmployeedetailsComponent,
+    ProductComponent,
 
   ],
   imports: [
